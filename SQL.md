@@ -29,3 +29,18 @@ SQL tutorial for beginners from freecodecamp YT.
 
 - CRUD (CREATE, READ/RETRIEVE, UPDATE, DELETE) is use to perform following functionalities - to create a database, read or retrieve informations from database, update the existing information database and delete the information in database.
 - These are core 4 operations or functionalities in DBMS.
+
+## Two Types of Databases
+
+1. Relational databases (SQL)
+    - Organize data into one or more tables
+        - Each table has columns and rows
+        - A unique key identifies each row
+
+  2.  Non-Relational (no-SQL / not just SQL)
+
+- Organize data in anything but a traditional table
+    - Key-value stores
+    - Documents(JSON, XML, etc.)
+    - Graphs
+    - Flexible table
