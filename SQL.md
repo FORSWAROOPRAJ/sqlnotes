@@ -2,7 +2,7 @@
 SQL tutorial for beginners from freecodecamp YT.
 # SQL 
 ### What is a Database (DB)?
-- Any collection of related information
+ Any collection of related information
     1. Phone Book
     2. Shopping list
     3. Todo list
@@ -14,3 +14,18 @@ SQL tutorial for beginners from freecodecamp YT.
     3. On a computer
     4. This Notion note on SQL itself
     5. Comment section
+    
+#  Database Management System (DBMS) : 
+- A special software program that helps users to create and manage a database
+    - makes its easy to manage large amount of infromation
+    - handles security
+    - backups
+    - importing/exporting data
+    - concurrency - In a database management system (DBMS), concurrency control manages simultaneous access to a database.
+    - Interacts with software application
+        - Programming languages
+
+## CRUD
+
+- CRUD (CREATE, READ/RETRIEVE, UPDATE, DELETE) is use to perform following functionalities - to create a database, read or retrieve informations from database, update the existing information database and delete the information in database.
+- These are core 4 operations or functionalities in DBMS.
