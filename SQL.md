@@ -1,4 +1,6 @@
 # SQL-from-freecodecamp
+Youtube Tutorial Link(freeCodeCamp) - https://www.youtube.com/watch?v=HXV3zeQKqGY
+
 SQL tutorial for beginners from freecodecamp YT.
 # SQL 
 ### What is a Database (DB)?
