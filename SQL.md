@@ -69,3 +69,5 @@ SQL tutorial for beginners from freecodecamp YT.
     - Any non-relational databases falls under this category, so there is no set of language standard.
     - Most NRDBMS will implement their own language for performing CRUD and administrative operations on databases.
 - Example of Non-Relational Databases (noSQL, not just SQL) -
+![Capture2 PNG](https://user-images.githubusercontent.com/67586773/141994929-7d2d5825-b97a-4c48-a625-b6373d6926f7.png)
+
