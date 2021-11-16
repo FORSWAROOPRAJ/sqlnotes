@@ -46,3 +46,16 @@ SQL tutorial for beginners from freecodecamp YT.
     - Documents(JSON, XML, etc.)
     - Graphs
     - Flexible table
+
+1. Relational Databases (SQL)
+
+- Relational Database Management System (RDBMS)
+    - Example: MySQL, Oracle, PostgreSQL, MariaDB, etc.
+- Structured Query Language
+    - Standardized language for interacting with RDBMS
+    - Used to perform 4 core operations i.e. CRUD operations, as well as other administrative tasks(user management, security, backups, etc.).
+    - Used to define tables and structures
+    - SQL code used on one RDBMS is not always portable to another without modification
+- Example of Relational Database i.e. SQL  
+    -  Below ID and Username is unique
+## ![Capture PNG](https://user-images.githubusercontent.com/67586773/141994086-b2728146-a2dc-45b9-899a-0091e4e9d1ab.png)
