@@ -47,7 +47,7 @@ SQL tutorial for beginners from freecodecamp YT.
     - Graphs
     - Flexible table
 
-1. Relational Databases (SQL)
+## 1. Relational Databases (SQL)
 
 - Relational Database Management System (RDBMS)
     - Example: MySQL, Oracle, PostgreSQL, MariaDB, etc.
