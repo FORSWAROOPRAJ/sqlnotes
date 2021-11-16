@@ -58,4 +58,4 @@ SQL tutorial for beginners from freecodecamp YT.
     - SQL code used on one RDBMS is not always portable to another without modification
 - Example of Relational Database i.e. SQL  
     -  Below ID and Username is unique
-## ![Capture PNG](https://user-images.githubusercontent.com/67586773/141994086-b2728146-a2dc-45b9-899a-0091e4e9d1ab.png)
+## (https://user-images.githubusercontent.com/67586773/141994086-b2728146-a2dc-45b9-899a-0091e4e9d1ab.png)
