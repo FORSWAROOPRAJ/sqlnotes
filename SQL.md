@@ -59,3 +59,13 @@ SQL tutorial for beginners from freecodecamp YT.
 - Example of Relational Database i.e. SQL  
     -  Below ID and Username is unique
 ##  ![Capture PNG](https://user-images.githubusercontent.com/67586773/141994086-b2728146-a2dc-45b9-899a-0091e4e9d1ab.png)
+
+### 2. Non-Relational Databases (noSQL, not just SQL)
+
+- Non-Relational Database management System (NRDBMS)
+    - Helps users to create and maintain a non-relational database
+        - Example: MongoDB, DynamoDB, Apache Cassandra, Firebase, etc.
+- Implementation specific
+    - Any non-relational databases falls under this category, so there is no set of language standard.
+    - Most NRDBMS will implement their own language for performing CRUD and administrative operations on databases.
+- Example of Non-Relational Databases (noSQL, not just SQL) -
