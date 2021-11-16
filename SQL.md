@@ -60,7 +60,7 @@ SQL tutorial for beginners from freecodecamp YT.
     -  Below ID and Username is unique
 ##  ![Capture PNG](https://user-images.githubusercontent.com/67586773/141994086-b2728146-a2dc-45b9-899a-0091e4e9d1ab.png)
 
-### 2. Non-Relational Databases (noSQL, not just SQL)
+## 2. Non-Relational Databases (noSQL, not just SQL)
 
 - Non-Relational Database management System (NRDBMS)
     - Helps users to create and maintain a non-relational database
