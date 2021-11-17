@@ -81,3 +81,5 @@ SQL tutorial for beginners from freecodecamp YT.
 ![capture4 PNG](https://user-images.githubusercontent.com/67586773/142226373-9de485ff-6f1f-4931-956e-588713de1074.png)
 
 All tables in Relational Databases we have 2 things Rows & Columns
+ -  Row or horizontal entry represents individual entry i.e. row represents single student (in above example)  eg. 1(student id), Jack(student name), biology(major)
+ -  Column or vertical entry represents single attribute  eg. major, name, student_id
