@@ -83,3 +83,7 @@ SQL tutorial for beginners from freecodecamp YT.
 All tables in Relational Databases we have 2 things Rows & Columns
  -  Row or horizontal entry represents individual entry i.e. row represents single student (in above example)  eg. 1(student id), Jack(student name), biology(major)
  -  Column or vertical entry represents single attribute  eg. major, name, student_id
+
+# Primary Key
+ - Whenever we are creating table in Relational Databases we always have 1 very special column which is called primary key.
+ - ![Capture5 PNG](https://user-images.githubusercontent.com/67586773/142227085-7f15c7f9-4910-4fbc-9378-e89e086bae68.png)
