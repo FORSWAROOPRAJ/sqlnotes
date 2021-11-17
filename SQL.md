@@ -76,3 +76,7 @@ SQL tutorial for beginners from freecodecamp YT.
 - Queries are requests made to the database management system for specific information
 - As database's structure become more and more complex, it becomes more difficult to get the specific pieces of information we want.
 - A google search is a query
+
+# Tables & Keys
+![capture4 PNG](https://user-images.githubusercontent.com/67586773/142226373-9de485ff-6f1f-4931-956e-588713de1074.png)
+
