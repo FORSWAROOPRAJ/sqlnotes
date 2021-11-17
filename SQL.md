@@ -80,3 +80,4 @@ SQL tutorial for beginners from freecodecamp YT.
 # Tables & Keys
 ![capture4 PNG](https://user-images.githubusercontent.com/67586773/142226373-9de485ff-6f1f-4931-956e-588713de1074.png)
 
+All tables in Relational Databases we have 2 things Rows & Columns
