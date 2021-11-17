@@ -86,4 +86,5 @@ All tables in Relational Databases we have 2 things Rows & Columns
 
 # Primary Key
  - Whenever we are creating table in Relational Databases we always have 1 very special column which is called primary key.
+ 
  - ![Capture5 PNG](https://user-images.githubusercontent.com/67586773/142227085-7f15c7f9-4910-4fbc-9378-e89e086bae68.png)
