@@ -88,3 +88,14 @@ All tables in Relational Databases we have 2 things Rows & Columns
  - Whenever we are creating table in Relational Databases we always have 1 very special column which is called primary key.
  
  ![Capture5 PNG](https://user-images.githubusercontent.com/67586773/142227085-7f15c7f9-4910-4fbc-9378-e89e086bae68.png)
+ 
+  - Primary key is a attribute which uniquely defines row in database.
+  - Primary key will always unique for each rows in table even if all of attribute will same in row.
+  - Primary key can be anything it can be a number or it can be string of text but it has uniquely identify the specific row.
+  
+ ### Types of Primary key 
+ 
+  1. Surrogate key - Surrogate key is a key which has no mapping to anything in real world.
+   - In below table just a random number assign to employee and that necessarily mean anything.
+   
+   ![Capture6 PNG](https://user-images.githubusercontent.com/67586773/142614438-7d3ab538-e6bf-450b-9d5f-734f690f81e7.png)
