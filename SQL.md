@@ -95,17 +95,17 @@ All tables in Relational Databases we have 2 things Rows & Columns
   
  ### Types of Primary key 
  
-  1. Surrogate key - Surrogate key is a key which has no mapping to anything in real world.
+  1. **Surrogate key** - Surrogate key is a key which has no mapping to anything in real world.
      - In below table just a random number assign to employee and that necessarily mean anything.
    
    ![Capture6 PNG](https://user-images.githubusercontent.com/67586773/142614438-7d3ab538-e6bf-450b-9d5f-734f690f81e7.png)
 
-   2. Natural Key - Natural key is a key which has mapping to real world.
+   2. **Natural Key** - Natural key is a key which has mapping to real world.
       - In below table emp_ssn ( social sequrity number is the number used in USA to identify each citizens uniquely)
       
    ![captur7 PNG](https://user-images.githubusercontent.com/67586773/142733871-452fe316-fce8-4975-aba9-deff0b362066.png)
 
-   3. Foreign Key - Foreign key is an attribute in table that links us to another table in database. Or Foreign key is primary key of linked table.
+   3. **Foreign Key** - Foreign key is an attribute in table that links us to another table in database. Or Foreign key is primary key of linked table.
       - In below table i.e. Employee table, branch_id is foreign key which linked with another table i.e. Branch table. And mgr_is also a foreign key.
       
    ![Capture8 PNG](https://user-images.githubusercontent.com/67586773/142733953-234dd158-8610-48ba-b4a4-73642ff809f2.png)
