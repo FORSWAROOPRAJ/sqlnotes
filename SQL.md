@@ -110,5 +110,5 @@ All tables in Relational Databases we have 2 things Rows & Columns
       
    ![Capture8 PNG](https://user-images.githubusercontent.com/67586773/142733953-234dd158-8610-48ba-b4a4-73642ff809f2.png)
 
-      - One table can have more than one foreign key.
-      - In below table super_id (supervisor id) is also a foreign key that links employee table itself. (eg. Jan Levinson is supervisor of Michael Scott & Josh Porter)
+    - One table can have more than one foreign key.
+    - In below table super_id (supervisor id) is also a foreign key that links employee table itself. (eg. Jan Levinson is supervisor of Michael Scott & Josh Porter)
