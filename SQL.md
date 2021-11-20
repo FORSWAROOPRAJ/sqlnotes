@@ -103,4 +103,5 @@ All tables in Relational Databases we have 2 things Rows & Columns
    2. Natural Key - Natural key is a key which has mapping to real world.
       - In below table emp_ssn ( social sequrity number is the number used in USA to identify each citizens uniquely)
       
-    ![captur7 PNG](https://user-images.githubusercontent.com/67586773/142616540-39ece0c5-69ad-4e47-82ed-10e2202e5115.png)
+   ![captur7 PNG](https://user-images.githubusercontent.com/67586773/142733871-452fe316-fce8-4975-aba9-deff0b362066.png)
+
