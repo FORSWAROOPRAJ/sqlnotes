@@ -105,3 +105,6 @@ All tables in Relational Databases we have 2 things Rows & Columns
       
    ![captur7 PNG](https://user-images.githubusercontent.com/67586773/142733871-452fe316-fce8-4975-aba9-deff0b362066.png)
 
+   3. Foreign Key - Foreign key is an attribute in table that links us to another table in database. Or Foreign key is primary key of linked table.
+      ![Capture8 PNG](https://user-images.githubusercontent.com/67586773/142733953-234dd158-8610-48ba-b4a4-73642ff809f2.png)
+- In below table i.e. Employee table, branch_id is foreign key which linked with another table i.e. Branch table. And mgr_is also a foreign key.
