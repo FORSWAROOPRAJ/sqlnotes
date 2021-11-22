@@ -112,3 +112,10 @@ All tables in Relational Databases we have 2 things Rows & Columns
 
       - One table can have more than one foreign key.
       - In below table super_id (supervisor id) is also a foreign key that links employee table itself. (eg. Jan Levinson is supervisor of Michael Scott & Josh Porter)
+
+ **Composite Key** - Composite key is a candidate key that consists of two or  more attributes(table columns) that together identify an entity occurrence(table row).
+ - In below table, there are 2 primary keys (branch_id, supplier_name) and that are composite keys.
+ - We need composite key because here, supplier_name or  branch_id doesn't uniquely identify row by itslef and they are repeating. Only together they can identify row.
+ - Eg. Hammer Mill supply Paper to branch_id 2 & 3. Uni-ball supply Writing Utensils to branch_id 2 & 3.
+ 
+ ![Capture11 PNG](https://user-images.githubusercontent.com/67586773/142803624-ddfdf5ce-dc26-4316-9231-86676ed27f60.png)
