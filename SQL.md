@@ -135,5 +135,18 @@ All tables in Relational Databases we have 2 things Rows & Columns
     - Perform administration tasks(security, user management, import/export, etc.
     
  - SQL implementations vary between systems
-    -  Not all RDBMS' follow the SQL standard to a 'T'
-    -  The concepts are the same but the implementation may vary
+     - Not all RDBMS' follow the SQL standard to a 'T'
+     - The concepts are the same but the implementation may vary
+    
+ - SQL is usually a hybrid language, it's basically 4 types of language in one
+ 
+     1. Data Query Language (DQL)
+         - Used to query the database for information.
+         - Get information that is already stored there
+     2. Data Definition Language (DDL)
+         - Used for defining databases schemas.
+     3. Data Control Language (DCL)
+         - Used for controlling access to the data in the database.
+         - User & permission management
+     4. Data Manipulation Language (DML)
+         - Used for inserting, updating and deleting data from the database.
