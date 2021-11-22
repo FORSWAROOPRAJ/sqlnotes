@@ -126,3 +126,14 @@ All tables in Relational Databases we have 2 things Rows & Columns
 
 ![Capture12 PNG](https://user-images.githubusercontent.com/67586773/142803752-3de1e605-b90e-43a4-b7c6-3e7352fd9c80.png)
 
+# What is SQL ?
+### SQL or Structured Query Language is a standard language for relational database management system.
+ - You can use SQL to get the RDBMS to do things for you
+    - Create, retrieve/read, update & delete data
+    - Create & manage databases
+    - Design & create database tables
+    - Perform administration tasks(security, user management, import/export, etc.
+    
+ - SQL implementations vary between systems
+    -  Not all RDBMS' follow the SQL standard to a 'T'
+    -  The concepts are the same but the implementation may vary
