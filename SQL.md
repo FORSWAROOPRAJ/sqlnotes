@@ -163,6 +163,7 @@ All tables in Relational Databases we have 2 things Rows & Columns
     - And any Query in SQL ends with ;
     
     <b> Code </b>
+    
      SELECT employee.name, employee.age
      
      FROM employee
