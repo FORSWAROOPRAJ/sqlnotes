@@ -162,9 +162,9 @@ All tables in Relational Databases we have 2 things Rows & Columns
     - Goal is to only get the data you need
     - And any Query in SQL ends with ;
     
-    <code> SELECT employee.name, employee.age </code>
-    <code> FROM employee </code>
-    <code> WHERE employee.salary > 300000 </code>
+    >SELECT employee.name, employee.age
+    >FROM employee
+    >WHERE employee.salary > 300000;
    
 
     
