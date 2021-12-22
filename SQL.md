@@ -156,14 +156,19 @@ All tables in Relational Databases we have 2 things Rows & Columns
      
    ### Queries
 
-- A query is a set of instructions given to the RDBMS (written is SQL) that tell the RDBMS what information you want it to retrieve for you
+  - A query is a set of instructions given to the RDBMS (written is SQL) that tell the RDBMS what information you want it to retrieve for you
     - Tons of data in a DB
     - Often hidden i a complex schema
     - Goal is to only get the data you need
     - And any Query in SQL ends with ;
     
-    SELECT employee.name, employee.age
+    <span style="background-color: #FFFF00">
+ 
+      SELECT employee.name, employee.age
     
-    FROM employee
+      FROM employee
     
-    WHERE employee.salary > 300000
+      WHERE employee.salary > 300000
+   </span>
+
+    
