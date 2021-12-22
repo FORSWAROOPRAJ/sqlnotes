@@ -164,8 +164,11 @@ All tables in Relational Databases we have 2 things Rows & Columns
     
     <b> Code </b>
      SELECT employee.name, employee.age
+     
      FROM employee
+     
      WHERE employee.salary > 300000;
+     
    
 
     
