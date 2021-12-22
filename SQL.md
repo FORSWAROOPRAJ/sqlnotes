@@ -163,11 +163,8 @@ All tables in Relational Databases we have 2 things Rows & Columns
     - And any Query in SQL ends with ;
     
     <span style="background-color: #FFFF00">
- 
       SELECT employee.name, employee.age
-    
       FROM employee
-    
       WHERE employee.salary > 300000
    </span>
 
