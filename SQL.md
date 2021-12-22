@@ -153,3 +153,17 @@ All tables in Relational Databases we have 2 things Rows & Columns
 
      4. Data Manipulation Language (DML)
          - Used for inserting, updating and deleting data from the database.
+     
+   ### Queries
+
+- A query is a set of instructions given to the RDBMS (written is SQL) that tell the RDBMS what information you want it to retrieve for you
+    - Tons of data in a DB
+    - Often hidden i a complex schema
+    - Goal is to only get the data you need
+    - And any Query in SQL ends with ;
+    
+    SELECT employee.name, employee.age
+    
+    FROM employee
+    
+    WHERE employee.salary > 300000
