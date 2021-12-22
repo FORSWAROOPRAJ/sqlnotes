@@ -163,10 +163,8 @@ All tables in Relational Databases we have 2 things Rows & Columns
     - And any Query in SQL ends with ;
     
     <code> SELECT employee.name, employee.age </code>
- 
-     <code> FROM employee </code>
- 
-     <code> WHERE employee.salary > 300000 </code>
+    <code> FROM employee </code>
+    <code> WHERE employee.salary > 300000 </code>
    
 
     
