@@ -174,6 +174,15 @@ All tables in Relational Databases we have 2 things Rows & Columns
 
 - Install MySQL community server OR Xampp Server
 - Install PopSQL visualizing queries.
+
+ ## Datatypes (CORE)
+
+1. INT             - Whole Numbers
+2. DECIMAL(M,N)    - Decimal Numbers - Exact value  Eg., DECIMAL(10,4) 
+3. VARCHAR(100)      - String of text of length 100 here.
+4. BLOB            - Binary Large Object, Stores large data
+5. DATE            - 'YYYY-MM-DD'
+6. TIMESTAMP       - 'YYYY-MM-DD HH:MM:SS' - used for recording
      
    
 
