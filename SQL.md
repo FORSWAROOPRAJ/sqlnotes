@@ -169,6 +169,11 @@ All tables in Relational Databases we have 2 things Rows & Columns
      FROM employee
      
      WHERE employee.salary > 300000;
+
+  ### **Installation**
+
+- Install MySQL community server OR Xampp Server
+- Install PopSQL visualizing queries.
      
    
 
