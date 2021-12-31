@@ -182,7 +182,16 @@ All tables in Relational Databases we have 2 things Rows & Columns
 3. VARCHAR(100)      - String of text of length 100 here.
 4. BLOB            - Binary Large Object, Stores large data
 5. DATE            - 'YYYY-MM-DD'
-6. TIMESTAMP       - 'YYYY-MM-DD HH:MM:SS' - used for recording
+6. TIMESTAMP       - 'YYYY-MM-DD HH:MM:SS' - used for recording.
+
+ ### Creating Database
+
+- You can either create database using MySQL Community Server CLI
+    - Syntax: create database databaseName;
+    
+    ![Capture13.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4a2eeb27-26a3-4b44-a702-535b0a82eea9/Capture13.png)
+    
+- or using phpmyadmin panel.
      
    
 
