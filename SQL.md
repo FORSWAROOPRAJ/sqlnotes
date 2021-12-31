@@ -219,12 +219,34 @@ major VARCHAR(20)
     ```
     
 
-### DELETING The Table
+### Delete The Table
 
 - Syntax: DROP Table tableName;
     
     ```sql
     DROP TABLE student;
     ```   
+## SELECT Statement:
 
+- Grab all the information from the table.
+- Syntax: SELECT * FROM table_name;
+    
+    ```sql
+    SELECT * FROM student;
+    ```
+    
+
+### ALTER The Table
+
+- Syntax: ALTER Table tableName ADD column_name datatype( );    (Suppose we want to add cgpa column)
+    
+    ```sql
+    ALTER TABLE student ADD cgpa DECIMAL(3,2);
+    ```
+    
+    - OR you can also drop table
+    
+    ```sql
+    ALTER TABLE student DROP COLUMN cgpa;
+    ```
     
