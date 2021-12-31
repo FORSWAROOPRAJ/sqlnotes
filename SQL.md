@@ -189,10 +189,43 @@ All tables in Relational Databases we have 2 things Rows & Columns
 - You can either create database using MySQL Community Server CLI
     - Syntax: create database databaseName;
     
-    ![Capture13.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4a2eeb27-26a3-4b44-a702-535b0a82eea9/Capture13.png)
+ ![Capture13 PNG](https://user-images.githubusercontent.com/67586773/147811977-30e5ba9a-1109-414c-8cb6-952c234eb9e4.png)
     
 - or using phpmyadmin panel.
      
-   
+### Creating table
+
+![Capture14 PNG](https://user-images.githubusercontent.com/67586773/147812006-6d33cec0-1cbb-4c22-8421-862d4778ee6d.png)
+
+```sql
+CREATE TABLE student(
+
+student_id INT PRIMARY KEY,
+
+names VARCHAR(20),
+
+major VARCHAR(20)
+
+-- PRIMARY KEY(student_id)  // comment in SQL
+
+);
+```
+
+### Describing The Table
+
+- Syntax: DESCRIBE tableName;
+    
+    ```sql
+     DESCRIBE student;
+    ```
+    
+
+### DELETING The Table
+
+- Syntax: DROP Table tableName;
+    
+    ```sql
+    DROP TABLE student;
+    ```   
 
     
