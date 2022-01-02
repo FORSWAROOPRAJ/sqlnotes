@@ -250,3 +250,27 @@ major VARCHAR(20)
     ALTER TABLE student DROP COLUMN cgpa;
     ```
     
+# Inserting Data
+
+- Syntax: INSERT INTO tab_name VALUES();
+    
+    
+    ```sql
+    INSERT INTO student VALUES(1, 'Jack', 'Biology');
+    INSERT INTO student VALUES(2, 'Kate', 'Sociology');
+    ```
+    
+
+>Rows affected 1 (You'll see this message after inserting above information) 
+
+### *You can specify what you want to insert specifically into the table. See below example,*
+
+- Suppose a student don't have major then we can  modify our INSERT Statement as follow:
+    
+    ```sql
+    INSERT INTO student(student_id, name) VALUES(3, 'Claire');
+    ```
+    
+
+>Now If we see the Claire's major, then it'll show **NULL**
+    
