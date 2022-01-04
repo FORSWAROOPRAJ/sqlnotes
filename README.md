@@ -275,3 +275,49 @@ major VARCHAR(20)
     
 
 >Now If we see the Claire's major, then it'll show **NULL**
+
+# Constraints
+
+- SQL constraints are used to specify rules for the data in a table. Constraints are used to limit the type of data that can go into a table.
+- NOT NULL,  UNIQUE
+
+```sql
+CREATE TABLE student(
+
+student_id INT,
+names VARCHAR(20) NOT NULL,  -- i.e. you cannot insert for **name** column
+major VARCHAR(20) UNIQUE,  -- i.e. major coloumn must be unique for each row in this table
+PRIMARY KEY(student_id)  // comment in SQL
+
+);
+
+SELECT * FROM student;
+
+INSERT INTO student VALUES(1, 'Jack', 'Biology');
+INSERT INTO student VALUES(2, 'Kate', 'Sociology');
+INSERT INTO student VALUES(3, NULL, 'Chemistry');   -- it'll throw error as we've mentioned that name van't be NULL
+INSERT INTO student VALUES(4, 'Jack', 'Biology');  -- it'll throw error - **Duplicate entry 'Biology' for key 'major'** as we've mentioned major column must be Unique for each row
+INSERT INTO student VALUES(5, 'Mike', 'Computer Science');
+```
+
+- DEFAULT
+
+```sql
+CREATE TABLE student(
+
+student_id INT,
+names VARCHAR(20) ,
+major VARCHAR(20) DEFAULT 'undecided', 
+PRIMARY KEY(student_id) 
+
+);
+
+SELECT * FROM student;
+
+INSERT INTO student(student_id, name) VALUES(1, 'Jack');   -- i.e now if you'll see Jack's major for student_id:1, it'll show **undecided**
+INSERT INTO student VALUES(2, 'Kate', 'Sociology');
+INSERT INTO student VALUES(3, 'Claire', 'Chemistry');   
+INSERT INTO student VALUES(4, 'Jack', 'Biology');
+INSERT INTO student VALUES(5, 'Mike', 'Computer Science');
+```
+
