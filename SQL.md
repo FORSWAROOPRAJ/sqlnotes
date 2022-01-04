@@ -297,3 +297,24 @@ INSERT INTO student VALUES(3, NULL, 'Chemistry');   -- it'll throw error as we'v
 INSERT INTO student VALUES(4, 'Jack', 'Biology');  -- it'll throw error - **Duplicate entry 'Biology' for key 'major'** as we've mentioned major column must be Unique for each row
 INSERT INTO student VALUES(5, 'Mike', 'Computer Science');
 ```
+
+- DEFAULT
+
+```sql
+CREATE TABLE student(
+
+student_id INT,
+names VARCHAR(20) ,
+major VARCHAR(20) DEFAULT 'undecided', 
+PRIMARY KEY(student_id) 
+
+);
+
+SELECT * FROM student;
+
+INSERT INTO student(student_id, name) VALUES(1, 'Jack');   -- i.e now if you'll see Jack's major for student_id:1, it'll show **undecided**
+INSERT INTO student VALUES(2, 'Kate', 'Sociology');
+INSERT INTO student VALUES(3, 'Claire', 'Chemistry');   
+INSERT INTO student VALUES(4, 'Jack', 'Biology');
+INSERT INTO student VALUES(5, 'Mike', 'Computer Science');
+```
