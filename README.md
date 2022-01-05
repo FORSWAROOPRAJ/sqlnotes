@@ -321,3 +321,52 @@ INSERT INTO student VALUES(4, 'Jack', 'Biology');
 INSERT INTO student VALUES(5, 'Mike', 'Computer Science');
 ```
 
+- AUTO_INCREMENT (increment primary key automatically in this case student_id)
+
+```sql
+CREATE TABLE student(
+
+student_id INT,
+names VARCHAR(20) AUTO_INCREMENT,  
+major VARCHAR(20), 
+PRIMARY KEY(student_id) 
+
+);
+
+SELECT * FROM student;
+
+INSERT INTO student(name, major) VALUES('Jack', 'Biology');   
+INSERT INTO student(name, major) VALUES('Claire', 'Chemistry');   
+INSERT INTO student(name, major) VALUES('Jack', 'Biology');
+INSERT INTO student(name, major) VALUES('Mike', 'Computer Science');
+
+> you'll see auto-increment of student-id
+```
+# Update & Delete
+
+## UPDATE
+
+- Suppose we have to set same major i.e. '**bio**' to all students :
+
+```sql
+SELECT * FROM student;
+
+UPDATE student
+SET major = 'Bio';
+```
+
+- Suppose we have to set major i.e. '**bio**' where major is 'biology':
+
+```sql
+SELECT * FROM student;
+
+UPDATE student
+SET major = 'Bio'
+WHERE major = 'biology';
+
+-- OR
+
+UPDATE student
+SET major = 'Comp Sci.'
+WHERE major = 'Computer Science';
+```
