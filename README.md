@@ -342,7 +342,7 @@ INSERT INTO student(name, major) VALUES('Mike', 'Computer Science');
 
 > you'll see auto-increment of student-id
 ```
-# Update & Delete
+# Update & Delete Operations
 
 ## UPDATE
 
