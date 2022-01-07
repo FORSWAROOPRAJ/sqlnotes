@@ -355,7 +355,7 @@ UPDATE student
 SET major = 'Bio';
 ```
 
-- Suppose we have to set major i.e. '**bio**' where major is 'biology':
+- Suppose we have to set major i.e '**bio**' where major is 'biology':
 
 ```sql
 SELECT * FROM student;
