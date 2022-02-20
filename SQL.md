@@ -367,3 +367,6 @@ UPDATE student
 SET major = 'Comp Sci.'
 WHERE major = 'Computer Science';
 ```
+- SQL Comparison Operators
+
+![cature3](https://user-images.githubusercontent.com/67586773/154854564-c940b6db-551a-4a5d-b859-883c7717a121.PNG)
