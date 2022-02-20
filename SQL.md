@@ -370,3 +370,15 @@ WHERE major = 'Computer Science';
 - SQL Comparison Operators
 
 ![cature3](https://user-images.githubusercontent.com/67586773/154854564-c940b6db-551a-4a5d-b859-883c7717a121.PNG)
+
+- Updating at specific row :
+
+```sql
+SELECT * FROM student;
+
+UPDATE student
+SET major = 'Bio'
+WHERE student_id = 4;
+```
+
+- Suppose we have to set major to 'Biochemistry' where major is 'bio' or 'chemistry'
