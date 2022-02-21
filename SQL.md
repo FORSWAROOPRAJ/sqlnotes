@@ -382,3 +382,17 @@ WHERE student_id = 4;
 ```
 
 - Suppose we have to set major to 'Biochemistry' where major is 'bio' or 'chemistry'
+
+```sql
+SELECT * FROM student;
+
+UPDATE student
+SET major = 'Bio'
+WHERE major = 'biology';
+
+-- OR
+
+UPDATE student
+SET major = 'Comp Sci.'
+WHERE major = 'Computer Science';
+```
