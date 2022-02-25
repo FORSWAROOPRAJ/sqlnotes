@@ -421,3 +421,5 @@ WHERE major = 'bio' OR major = 'chemistry';
 ```
 
 - **SQL Logical Operators**
+
+![captur15](https://user-images.githubusercontent.com/67586773/155760129-4a03f18b-7c12-4201-9127-5ed721010ae1.png)
