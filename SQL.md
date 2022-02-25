@@ -423,3 +423,13 @@ WHERE major = 'bio' OR major = 'chemistry';
 - **SQL Logical Operators**
 
 ![captur15](https://user-images.githubusercontent.com/67586773/155760129-4a03f18b-7c12-4201-9127-5ed721010ae1.png)
+
+- Suppose we have to change both name and major to name = 'Tom' and major = 'undecided' at student_id = 1 :
+
+```sql
+SELECT * FROM student;
+
+UPDATE student
+SET name = 'Tom', major = 'undecided'
+WHERE student_id = 1;
+```
