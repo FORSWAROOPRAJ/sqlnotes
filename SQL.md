@@ -433,3 +433,11 @@ UPDATE student
 SET name = 'Tom', major = 'undecided'
 WHERE student_id = 1;
 ```
+## DELETE
+
+- **Delete all the rows:**
+```
+SELECT * FROM student;
+
+DELETE FROM student;
+```
