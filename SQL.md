@@ -436,8 +436,17 @@ WHERE student_id = 1;
 ## DELETE
 
 - **Delete all the rows:**
-```
+
+```sql
 SELECT * FROM student;
 
 DELETE FROM student;
+```
+- Delete specific row:
+
+```sql
+SELECT * FROM student;
+
+DELETE FROM student
+WHERE student_id = 5;
 ```
