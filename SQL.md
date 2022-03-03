@@ -450,3 +450,11 @@ SELECT * FROM student;
 DELETE FROM student
 WHERE student_id = 5;
 ```
+- Suppose we have to delete specifically:
+
+```sql
+SELECT * FROM student;
+
+DELETE FROM student
+WHERE name = 'Tom' AND major = 'undecided'
+```
