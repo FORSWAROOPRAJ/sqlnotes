@@ -479,3 +479,10 @@ FROM student;
 SELECT student.name, student.major
 FROM student;
 ```
+3. Suppose you want to grab name and major both from table and order by **alphabetically**(name):
+
+```sql
+SELECT student.name, student.major
+FROM student
+ORDER BY name;
+```
