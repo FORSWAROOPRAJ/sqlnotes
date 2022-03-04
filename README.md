@@ -435,3 +435,58 @@ UPDATE student
 SET major = 'Biochemistry'
 WHERE major = 'bio' OR major = 'chemistry';
 ```
+- **SQL Logical Operators**
+
+![captur15](https://user-images.githubusercontent.com/67586773/155760129-4a03f18b-7c12-4201-9127-5ed721010ae1.png)
+
+- Suppose we have to change both name and major to name = 'Tom' and major = 'undecided' at student_id = 1 :
+
+```sql
+SELECT * FROM student;
+
+UPDATE student
+SET name = 'Tom', major = 'undecided'
+WHERE student_id = 1;
+```
+## DELETE
+
+- **Delete all the rows:**
+
+```sql
+SELECT * FROM student;
+
+DELETE FROM student;
+```
+- Delete specific row:
+
+```sql
+SELECT * FROM student;
+
+DELETE FROM student
+WHERE student_id = 5;
+```
+1. Suppose we have to delete specifically:
+
+```sql
+SELECT * FROM student;
+
+DELETE FROM student
+WHERE name = 'Tom' AND major = 'undecided'
+```
+2. Suppose you want to grab name and major both from table:
+
+SELECT name, major
+FROM student;
+
+-- OR (If we have many tables then,)
+```sql
+SELECT student.name, student.major
+FROM student;
+```
+3. Suppose you want to grab name and major both from table and order by **alphabetically**(name):
+
+```sql
+SELECT student.name, student.major
+FROM student
+ORDER BY name;
+```
