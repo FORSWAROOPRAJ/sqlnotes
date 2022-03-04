@@ -461,11 +461,21 @@ SELECT * FROM student;
 DELETE FROM student
 WHERE student_id = 5;
 ```
-- Suppose we have to delete specifically:
+1. Suppose we have to delete specifically:
 
 ```sql
 SELECT * FROM student;
 
 DELETE FROM student
 WHERE name = 'Tom' AND major = 'undecided'
+```
+2. Suppose you want to grab name and major both from table:
+
+SELECT name, major
+FROM student;
+
+-- OR (If we have many tables then,)
+```sql
+SELECT student.name, student.major
+FROM student;
 ```
