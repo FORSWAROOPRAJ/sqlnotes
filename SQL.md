@@ -509,3 +509,10 @@ SELECT *
 FROM student
 ORDER BY major, student_id;
 ```
+5.1. Suppose you want to grab all information from table in alphabetical order of major and student_id (in descending order):
+
+```sql
+SELECT *
+FROM student
+ORDER BY major, student_id DESC;
+```
