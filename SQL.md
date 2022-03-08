@@ -516,3 +516,13 @@ SELECT *
 FROM student
 ORDER BY major, student_id DESC;
 ```
+### LIMIT
+
+- If you want to get limited number of rows then you can use **LIMIT** keyword.
+6. Suppose you want to grab all information till 2 rows:
+
+```sql
+SELECT *
+FROM student
+LIMIT 2;
+```
