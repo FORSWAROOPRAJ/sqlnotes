@@ -526,3 +526,12 @@ SELECT *
 FROM student
 LIMIT 2;
 ```
+
+ 6.1. Suppose you want to grab all information till 2 rows and also by descending order of student_id:
+ 
+ ```sql
+SELECT *
+FROM student
+ORDER BY student_id DESC
+LIMIT 2;
+ ```
