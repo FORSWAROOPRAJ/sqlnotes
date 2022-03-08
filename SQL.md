@@ -535,3 +535,12 @@ FROM student
 ORDER BY student_id DESC
 LIMIT 2;
  ```
+ 
+ 7. Suppose you want to grab name and major from table where major = 'Chemistry' OR major='Biology':
+
+```sql
+SELECT name, major
+FROM student
+WHERE major = 'Chemistry' OR major = 'Biology';
+```
+
