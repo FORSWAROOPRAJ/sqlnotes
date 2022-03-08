@@ -543,4 +543,10 @@ SELECT name, major
 FROM student
 WHERE major = 'Chemistry' OR major = 'Biology';
 ```
+8. Suppose you want to grab all information where major is not equal (<>) to 'Chemistry':
 
+```sql
+SELECT name, major
+FROM student
+WHERE major <> 'Chemistry';
+```
