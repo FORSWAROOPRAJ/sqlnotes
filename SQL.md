@@ -550,3 +550,10 @@ SELECT name, major
 FROM student
 WHERE major <> 'Chemistry';
 ```
+9. Suppose you want to grab all information where student_id is less than (<) 3:
+
+```sql
+SELECT *
+FROM student
+WHERE student_id < 3;
+```
