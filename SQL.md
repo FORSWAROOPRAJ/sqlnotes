@@ -557,3 +557,10 @@ SELECT *
 FROM student
 WHERE student_id < 3;
 ```
+10. Suppose you want to grab all information where student_id is less than (<) 3 and name is not equal (<>) to 'Jack':
+
+```sql
+SELECT *
+FROM student
+WHERE student_id < 3 AND name <> 'Jack';
+```
