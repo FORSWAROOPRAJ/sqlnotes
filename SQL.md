@@ -564,3 +564,10 @@ SELECT *
 FROM student
 WHERE student_id < 3 AND name <> 'Jack';
 ```
+11. Suppose you want to grab all information where names are equal to Claire, Kate & Mike:
+
+```sql
+SELECT *
+FROM student
+WHERE name IN ('Claire','Kate','Mike');
+```
