@@ -571,3 +571,11 @@ SELECT *
 FROM student
 WHERE name IN ('Claire','Kate','Mike');
 ```
+
+12. Suppose you want to grab all information where majors are equal to Biology & Chemistry and student_id > 2:
+
+```sql
+SELECT *
+FROM student
+WHERE major IN ('Biology', 'Chemistry') AND student_id > 2;
+```
