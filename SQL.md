@@ -584,7 +584,7 @@ WHERE major IN ('Biology', 'Chemistry') AND student_id > 2;
 
 ![Screenshot (7)](https://user-images.githubusercontent.com/67586773/157910765-f13d311b-2f66-4f60-b475-0f0e65749f19.png)
 
-* Employee Database - 
+* Employee Table - 
 
 ```sql
 CREATE TABLE employee (
@@ -596,5 +596,17 @@ CREATE TABLE employee (
 	salary INT,
 	super_id INT,
 	branch_id INT
+);
+```
+
+* Branch Table - 
+
+```sql
+CREATE TABLE branch (
+	branch_id INT PRIMARY KEY,
+	branch_name VARCHAR(40),
+	mgr_id INT,
+	mgr_start_date DATE, 
+	FOREIGN KEY(mgr_id) REFERENCES employee(emp_id) ON DELETE SET NULL 
 );
 ```
