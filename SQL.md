@@ -619,3 +619,13 @@ CREATE TABLE client (
 	branch_id VARCHAR(40)
 );
 ```
+
+* Works_With Table - 
+
+```sql
+CREATE TABLE works_with (
+	emp_id INT,
+	client_id INT,
+	total_sales INT
+);
+```
