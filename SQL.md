@@ -610,3 +610,12 @@ CREATE TABLE branch (
 	FOREIGN KEY(mgr_id) REFERENCES employee(emp_id) ON DELETE SET NULL 
 );
 ```
+* Client Table - 
+
+```sql
+CREATE TABLE client (
+	client_id INT PRIMARY KEY,
+	client_name VARCHAR (40),
+	branch_id VARCHAR(40)
+);
+```
