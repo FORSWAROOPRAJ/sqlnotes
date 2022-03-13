@@ -629,3 +629,12 @@ CREATE TABLE works_with (
 	total_sales INT
 );
 ```
+* Branch Supplier Table - 
+
+```sql
+CREATE TABLE branch_supplier (
+	branch_id INT,
+	supplier_name VARCHAR(40),
+	supply_type VARCHAR(40)
+);
+```
