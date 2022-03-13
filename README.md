@@ -490,3 +490,33 @@ SELECT student.name, student.major
 FROM student
 ORDER BY name;
 ```
+4. Suppose you want to grab all information from table in descending or ascending order of student_id:
+
+```sql
+-- DESCENDING ORDER
+
+SELECT *
+FROM student
+ORDER BY student_id DESC;
+
+-- ASCENDING ORDER
+
+SELECT *
+FROM student
+ORDER BY student_id ASC;
+```
+
+5. Suppose you want to grab all information from table in alphabetical order of major and student_id:
+
+```sql
+SELECT *
+FROM student
+ORDER BY major, student_id;
+```
+5.1. Suppose you want to grab all information from table in alphabetical order of major and student_id (in descending order):
+
+```sql
+SELECT *
+FROM student
+ORDER BY major, student_id DESC;
+```
