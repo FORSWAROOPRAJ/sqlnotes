@@ -602,3 +602,24 @@ CREATE TABLE employee (
 	branch_id INT
 );
 ```
+* Branch Table - 
+
+```sql
+CREATE TABLE branch (
+	branch_id INT PRIMARY KEY,
+	branch_name VARCHAR(40),
+	mgr_id INT,
+	mgr_start_date DATE, 
+	FOREIGN KEY(mgr_id) REFERENCES employee(emp_id) ON DELETE SET NULL 
+);
+```
+
+* Client Table - 
+
+```sql
+CREATE TABLE client (
+	client_id INT PRIMARY KEY,
+	client_name VARCHAR (40),
+	branch_id VARCHAR(40)
+);
+```
