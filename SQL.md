@@ -628,10 +628,11 @@ CREATE TABLE client (
 * Works_With Table - 
 
 ```sql
-CREATE TABLE works_with (
-	emp_id INT,
-	client_id INT,
-	total_sales INT
+CREATE TABLE client (
+	client_id INT PRIMARY KEY,
+	client_name VARCHAR (40),
+	branch_id VARCHAR(40),
+  FOREIGN KEY (branch_id) REFERENCES branch(branch_id) ON DELETE SET NULL;
 );
 ```
 * Branch Supplier Table - 
