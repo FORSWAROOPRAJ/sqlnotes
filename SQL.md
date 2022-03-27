@@ -715,3 +715,17 @@ INSERT INTO branch_supplier VALUES(3, 'Uni-Ball', 'Writing Utensils');
 INSERT INTO branch_supplier VALUES(3, 'Hammer Mill', 'Paper');
 INSERT INTO branch_supplier VALUES(3, 'Stamford Labels', 'Custom Forms');
 ```
+
+* Client Table
+
+```sql
+-- CLIENT
+
+INSERT INTO client VALUES(400, 'Dunmore Hishchool',2);
+INSERT INTO client VALUES(401, 'Lackwana Country',2);
+INSERT INTO client VALUES(402, 'FedEx',3);
+INSERT INTO client VALUES(403, 'John Dally Law, LLC',3);
+INSERT INTO client VALUES(404, 'Scrantin Whitepapers',2);
+INSERT INTO client VALUES(405, 'Times Newspaper',3);
+INSERT INTO client VALUES(406, 'FedEx',2);
+```
