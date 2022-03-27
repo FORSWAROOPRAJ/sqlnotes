@@ -599,6 +599,21 @@ CREATE TABLE branch (
 	FOREIGN KEY(mgr_id) REFERENCES employee(emp_id) ON DELETE SET NULL 
 );
 ```
+* As we need to set the super_id and branch_id of the employee table as Foreign key in the employee table &  branch table and employee have not been created yet. We can achieve it by following queries
+
+```sql
+ALTER TABLE employee
+ADD FOREIGN KEY(branch_id)
+REFERENCES branch(branch_id)
+ON DELETE SET NULL;
+
+ALTER TABLE employee
+ADD FOREIGN KEY(super_id),
+REFERENCES employee(emp_id)
+ON DELETE SET NULL; 
+```
+
+
 * Client Table - 
 
 ```sql
