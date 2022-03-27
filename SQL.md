@@ -641,6 +641,8 @@ CREATE TABLE client (
 CREATE TABLE branch_supplier (
 	branch_id INT,
 	supplier_name VARCHAR(40),
-	supply_type VARCHAR(40)
+	supply_type VARCHAR(40),
+  FOREIGN KEY(branch_id, supplier_name), // supplier_name is not foreign key but it is composite key
+  FOREIGN KEY (branch_id) REFERENCES branch(branch_id) ON DELETE CASCADE;
 );
 ```
