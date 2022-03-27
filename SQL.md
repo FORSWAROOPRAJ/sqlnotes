@@ -701,5 +701,17 @@ WHERE emp_id = 106;
 
 INSERT INTO employee VALUES(107, 'Andy', 'Bernard', '1973-07-22', 'M', 65000, 106, 3);
 INSERT IN TO employee VALUES(108, 'Jim', 'Halpert', '1978-10-01', 'M', 71000, 106, 3);
+```
 
+* Branch Supplier
+
+```sql
+-- BRANCH_SUPPLIER
+INSERT INTO branch_supplier VALUES(2, 'Hammer Mill', 'Paper');
+INSERT INTO branch_supplier VALUES(2, 'Uni-Ball', 'Writing Materials');
+INSERT INTO branch_supplier VALUES(3, 'Patriot Paper & Labels', 'Paper');
+INSERT INTO branch_supplier VALUES(2, 'J.T. Forms ', 'Custom Forms');
+INSERT INTO branch_supplier VALUES(3, 'Uni-Ball', 'Writing Utensils');
+INSERT INTO branch_supplier VALUES(3, 'Hammer Mill', 'Paper');
+INSERT INTO branch_supplier VALUES(3, 'Stamford Labels', 'Custom Forms');
 ```
