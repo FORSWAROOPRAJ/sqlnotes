@@ -792,3 +792,11 @@ FROM employee
 ORDER BY salary desc;
 ```
 
+```SQL
+-- Find all employee ordered by sex then name
+
+SELECT *
+FROM employee
+ORDER BY sex, first_name, last_name;
+```
+
