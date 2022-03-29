@@ -764,3 +764,15 @@ Select * from works_with;
 -- Branch Supplier table
 Select * from branch_supplier; 
 ```
+
+###  More Basic Queries 
+
+```sql
+-- Find all employees
+
+SELECT * FROM EMPLOYEE;
+
+-- Find all clients
+
+SELECT * FROM client;
+```
