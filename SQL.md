@@ -776,3 +776,19 @@ SELECT * FROM EMPLOYEE;
 
 SELECT * FROM client;
 ```
+
+-- Find all employees order by salary
+
+```sql
+SELECT * 
+FROM employee
+ORDER BY salary;
+
+
+-- Find all employees order by salary in descending order
+
+SELECT * 
+FROM employee
+ORDER BY salary desc;
+```
+
