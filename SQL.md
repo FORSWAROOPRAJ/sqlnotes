@@ -730,7 +730,7 @@ INSERT INTO client VALUES(405, 'Times Newspaper',3);
 INSERT INTO client VALUES(406, 'FedEx',2);
 ```
 
-* Works_With tablet
+* Works_With table
 
 ```sql
 -- WORKS_WITH
@@ -745,4 +745,22 @@ INSERT INTO works_with VALUES(107, 405, 26000);
 INSERT INTO works_with VALUES(102, 406, 150000);
 INSERT INTO works_with VALUES(105, 406, 130000);
 
+```
+* Now to check whether we have perfectly added information into table or not
+
+```sql
+-- Employee table
+Select * from employee;
+
+-- Branch table
+Select * from branch;
+
+-- Client table
+Select * from client;
+
+-- Works_With table
+Select * from works_with;
+
+-- Branch Supplier table
+Select * from branch_supplier; 
 ```
