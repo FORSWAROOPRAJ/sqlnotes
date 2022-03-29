@@ -800,3 +800,10 @@ FROM employee
 ORDER BY sex, first_name, last_name;
 ```
 
+```sql
+-- Find first 5 employee in the table
+
+SELECT * 
+FROM employee 
+LIMIT 5;
+```
