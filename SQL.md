@@ -916,3 +916,11 @@ SELECT *
 FROM client
 WHERE client_name LIKE '%LLC';
 ```
+
+```sql
+-- Find any branch suppliers who are in the label busines
+
+SELECT *
+FROM branch_supplier
+WHERE supplier_name LIKE '% Label%;
+```
