@@ -884,3 +884,18 @@ FROM employee;
 	FROM employee
 	GROUP BY sex;
 ```
+
+```sql
+-- Find the total sales of each salesman
+
+SELECT SUM(total_sales), emp_id
+FROM works_with
+GROUP BY emp_id;
+
+
+-- Find the total money spent by each client
+
+SELECT COUNT(total_sales), client_id
+FROM works_with
+GROUP BY client_id;
+```
