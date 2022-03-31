@@ -909,3 +909,10 @@ GROUP BY client_id;
 -- % = any # characters,
 -- _ = one character
 ```
+
+```sql
+-- Find any cleint's who are an LLC
+SELECT *
+FROM client
+WHERE client_name LIKE '%LLC';
+```
