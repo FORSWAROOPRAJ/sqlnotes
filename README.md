@@ -780,3 +780,28 @@ Select * from works_with;
 -- Branch Supplier table
 Select * from branch_supplier; 
 ```
+###  More Basic Queries 
+
+```sql
+-- Find all employees
+
+SELECT * FROM EMPLOYEE;
+
+-- Find all clients
+
+SELECT * FROM client;
+```
+
+-- Find all employees order by salary
+
+```sql
+SELECT * 
+FROM employee
+ORDER BY salary;
+
+-- Find all employees order by salary in descending order
+
+SELECT * 
+FROM employee
+ORDER BY salary desc;
+```
