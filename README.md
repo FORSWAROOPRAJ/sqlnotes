@@ -805,3 +805,18 @@ SELECT *
 FROM employee
 ORDER BY salary desc;
 ```
+```SQL
+-- Find all employee ordered by sex then name
+
+SELECT *
+FROM employee
+ORDER BY sex, first_name, last_name;
+```
+
+```sql
+-- Find first 5 employee in the table
+
+SELECT * 
+FROM employee 
+LIMIT 5;
+```
