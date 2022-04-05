@@ -832,3 +832,14 @@ FROM employee;
 SELECT first_name AS forename, last_name AS surname
 FROM employee;
 ```
+```sql
+-- Find out all different genders
+
+SELECT DISTINCT sex
+FROM employee;
+
+-- Find out all different branches
+
+SELECT DISTINCT branch_id
+FROM employee;
+```
