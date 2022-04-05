@@ -820,3 +820,15 @@ SELECT *
 FROM employee 
 LIMIT 5;
 ```
+
+```sql
+--- Find the first and last names of all employees
+
+SELECT first_name, last_name 
+FROM employee;
+
+--- Find the forename and surnames of all employees
+
+SELECT first_name AS forename, last_name AS surname
+FROM employee;
+```
