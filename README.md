@@ -843,3 +843,28 @@ FROM employee;
 SELECT DISTINCT branch_id
 FROM employee;
 ```
+
+
+### Function
+
+* COUNT
+
+```sql
+-- Find the number of employee
+
+SELECT COUNT(emp_id) 
+FROM employee;     // output as 9 (It also counts null)
+
+// or
+SELECT COUNT(super_id)
+FROM empoyee;      // output as 8 (It won't count null)
+```
+
+```sql
+-- Find the number of female employees born after 1970
+
+SELECT COUNT(emp_id)
+FROM employee
+WHERE sex = 'F' AND birth_date > '1971-01-01';
+```
+
