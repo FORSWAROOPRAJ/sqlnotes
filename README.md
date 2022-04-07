@@ -887,3 +887,30 @@ WHERE sex = 'M';
 SELECT SUM(salary)
 FROM employee;
 ```
+
+
+* Aggregation (GROUP BY)
+
+```sql
+-- Find out how many males and females there are
+
+	SELECT COUNT(sex), sex
+	FROM employee
+	GROUP BY sex;
+```
+
+```sql
+-- Find the total sales of each salesman
+
+SELECT SUM(total_sales), emp_id
+FROM works_with
+GROUP BY emp_id;
+
+
+-- Find the total money spent by each client
+
+SELECT COUNT(total_sales), client_id
+FROM works_with
+GROUP BY client_id;
+```
+
