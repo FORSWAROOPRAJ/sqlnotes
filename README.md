@@ -930,3 +930,24 @@ SELECT *
 FROM client
 WHERE client_name LIKE '%LLC';
 ```
+```sql
+-- Find any branch suppliers who are in the label busines
+
+SELECT *
+FROM branch_supplier
+WHERE supplier_name LIKE '% Label%;
+```
+
+```sql
+-- Find any employee born in october
+
+SELECT * 
+FROM employee
+WHERE birth_date LIKE '____-10'; // YEAR-10
+
+-- Find any employee born in october
+
+SELECT *
+FROM employee
+WHERE birth_date LIKE '____-02';
+```
