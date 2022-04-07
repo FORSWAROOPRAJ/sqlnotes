@@ -868,3 +868,22 @@ FROM employee
 WHERE sex = 'F' AND birth_date > '1971-01-01';
 ```
 
+* AVG
+
+```sql
+-- Find the average of all employee's salary
+
+SELECT AVG(salary)
+FROM employee;
+
+-- Find the average of Male's salary
+
+SELECT AVG(salary)
+FROM employee
+WHERE sex = 'M';
+
+-- Find the sum of all employee's salary
+
+SELECT SUM(salary)
+FROM employee;
+```
