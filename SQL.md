@@ -941,7 +941,7 @@ WHERE birth_date LIKE '____-02';
 
 ```sql
 
---- Find any clients who are schools
+--- Find any clients who are schools :
 
 SELECT *
 FROM employee
