@@ -746,7 +746,7 @@ INSERT INTO works_with VALUES(102, 406, 150000);
 INSERT INTO works_with VALUES(105, 406, 130000);
 
 ```
-* Now to check whether we have perfectly added information into table or not
+## Now to check whether we have perfectly added information into table or not
 
 ```sql
 -- Employee table
