@@ -14,13 +14,14 @@ SQL tutorial for beginners from freecodecamp YT.
     3. Todo list
     4. Your 5 best friends 
     5. Facebook's user base, etc..
-- Database can be stored in different ways - 
+    
+ Database can be stored in different ways - 
 
     1. On paper
     2. In your mind
     3. On a computer
     4. This Notion note on SQL itself
-    5. Comment section
+    5. Comment section, etc..
     
 #  Database Management System (DBMS) : 
 - A special software program that helps users to create and manage a database
