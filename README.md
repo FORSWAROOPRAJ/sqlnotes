@@ -138,7 +138,7 @@ All tables in Relational Databases we have 2 things Rows & Columns
     - Create, retrieve/read, update & delete data
     - Create & manage databases
     - Design & create database tables
-    - Perform administration tasks(security, user management, import/export, etc.
+    - Perform administration tasks(security, user management, import/export, etc.)
     
  - SQL implementations vary between systems
      - Not all RDBMS' follow the SQL standard to a 'T'
@@ -164,7 +164,7 @@ All tables in Relational Databases we have 2 things Rows & Columns
 
   - A query is a set of instructions given to the RDBMS (written is SQL) that tell the RDBMS what information you want it to retrieve for you
     - Tons of data in a DB
-    - Often hidden i a complex schema
+    - Often hidden in a complex schema
     - Goal is to only get the data you need
     - And any Query in SQL ends with ;
     
