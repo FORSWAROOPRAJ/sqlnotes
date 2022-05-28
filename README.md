@@ -255,6 +255,10 @@ major VARCHAR(20)
     ```sql
     ALTER TABLE student DROP COLUMN cgpa;
     ```
+ 
+ - Suppose you want to change the column name:
+ - Syntax: ALTER TABLE TableName CHANGE oldColumnName newColumnName datatype();
+ 
   # Inserting Data
 
 - Syntax: INSERT INTO tab_name VALUES();
