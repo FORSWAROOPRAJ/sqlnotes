@@ -25,7 +25,7 @@ SQL tutorial for beginners from freecodecamp YT.
     
 #  Database Management System (DBMS) : 
 - A special software program that helps users to create and manage a database
-    - makes its easy to manage large amount of infromation
+    - makes its easy to manage large amount of information
     - handles security
     - backups
     - importing/exporting data
