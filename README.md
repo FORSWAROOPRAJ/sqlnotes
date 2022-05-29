@@ -197,6 +197,12 @@ All tables in Relational Databases we have 2 things Rows & Columns
  ![Capture13 PNG](https://user-images.githubusercontent.com/67586773/147811977-30e5ba9a-1109-414c-8cb6-952c234eb9e4.png)
     
 - or using phpmyadmin panel.
+
+## To show the databases
+
+```sql
+show databases;
+```
      
 ### Creating table
 
